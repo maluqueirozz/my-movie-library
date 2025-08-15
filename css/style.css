@@ -7,12 +7,25 @@
 body{
     background-color: #EDF2F4;
     font-family: Arial, Helvetica, sans-serif;
-    color: black
+    color: black;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+main{
+    flex-grow: 1;
+}
 header{
     background-color: #2B2D42;
     color: white;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 20px;
 }
 header span{
     font-size: 36px;
@@ -25,6 +38,10 @@ header span{
     height: 40px;
     font-size: 40px;
     border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -55,6 +72,17 @@ footer{
     font-weight: 700;
     font-size: 16px;
     margin-top: 19px;
+}
+
+.movie-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 60px;
+
+    padding: 26px 20px;
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 .rating{
