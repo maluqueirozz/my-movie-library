@@ -24,10 +24,12 @@
             <h2>New Review</h2>
 
             <div class="form-container">
-              <form action="">
+              <form>
                 <div>
+                    <div class="form-group">
                     <label for="movien-name">Movie Name</label>
                     <input type="text" id="movie-name" placeholder="Enter the movie title">
+                </div>
                 </div>
                 <div class="form-group">
                     <label for="poster-url">Poster URL</label>
@@ -38,7 +40,7 @@
                         <label for="rating-select">Stars</label>
                         <select id="rating-select">
                             <option value="">Choose a rating</option>
-                            <option value="1">★☆☆☆☆ - 1 Star</option>
+                            <option  value="1">★☆☆☆☆ - 1 Star</option>
                             <option value="2">★☆☆☆☆ - 2 Stars</option>
                             <option value="3">★☆☆☆☆ - 3 Stars</option>
                             <option value="4">★☆☆☆☆ - 4 Stars</option>
@@ -50,9 +52,11 @@
                             <label for="watched-date">Watched Date</label>
                             <input type="date" id="watched-date">
                             </div>
+                            </div>
                         <div class="form-group">
                             <label for="review-text">My Review</label>
-                            <textarea id="review-text" rows="5" placeholder="Write your thoughts here..."></textarea>
+                            <textarea id="review-text" rows="5" 
+                            placeholder="Write your thoughts here..."></textarea>
                         </div>  
                         <button type="submit" class="submit-button">Add</button>  
                 </div>
