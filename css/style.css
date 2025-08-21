@@ -275,6 +275,13 @@ label{
     align-items: center;
     padding: 20px;
     max-width: 450px;
+    margin: 30px 15px;
+}
+.blank-line{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0%;
 }
 .movie-details{
     width: 100%;
@@ -288,6 +295,8 @@ label{
     margin: 0 auto;
     text-align: center;
 }
+
+ 
 .movie-details img{
     width: 100%;
     max-width: 280px;
@@ -334,3 +343,19 @@ label{
   }
 }
 
+.movie-details-body {
+    display: flex;;
+    align-items:flex-start;
+    gap: 65px;
+}
+.blank-line {
+    margin: 20px 0;
+}
+.blank-line a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.blank-line a:hover{
+    text-decoration: underline;
+}
